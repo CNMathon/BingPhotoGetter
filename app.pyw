@@ -21,7 +21,7 @@ if (len(nowMonth) < 2):
 if (len(nowDay) < 2):
     nowDay = '0' + nowDay
 file_name = nowYear + nowMonth + nowDay + '.jpg'
-file_path = '/' + file_folder + file_name
+file_path = file_folder + '/' + file_name
 print('[File_folder] ' + file_folder)
 print('[File_name] ' + file_name)
 print('[File_path] ' + file_path)
